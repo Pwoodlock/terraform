@@ -1,0 +1,63 @@
+# Terraform files
+**/.terraform/*
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfvars
+**/*.tfvars.json
+**/.terraformrc
+**/terraform.rc
+**/.terraform.lock.hcl
+**/crash.log
+**/crash.*.log
+
+# Sensitive files
+**/*.pem
+**/*.key
+**/*.pub
+**/*.pfx
+**/*.p12
+**/*.cer
+**/*.crt
+**/*.der
+**/*.priv
+**/*.password
+**/*.secret
+**/*.credentials
+**/*.env
+**/*secrets*
+**/*credential*
+**/*password*
+**/*secret*
+# Local development files
+**/.envrc
+**/.direnv/
+**/.env.*
+**/local.settings.json
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+
+# Operating system files
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
+**/$RECYCLE.BIN/
+
+# Log files
+**/*.log
+**/*.log.*
+**/logs/
+**/log/
+
+# Backup files
+**/*.bak
+**/*.backup
+**/*backup*
+**/*.old
+**/*.orig
+**/*.tmp
